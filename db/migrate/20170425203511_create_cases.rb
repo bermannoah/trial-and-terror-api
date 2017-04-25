@@ -12,6 +12,7 @@ class CreateCases < ActiveRecord::Migration[5.0]
       t.string :gender
       t.string :release_date
       t.string :institution_name_display
+      t.string :institution_city
       t.string :institution_state
       t.string :institution_security_level
       t.boolean :case_informant
@@ -38,7 +39,7 @@ class CreateCases < ActiveRecord::Migration[5.0]
       t.text :case_additional_sentence_details_3
       t.text :case_terror_org_1
       t.text :case_terror_org_2
-      t.text :case_text_org_3
+      t.text :case_terror_org_3
 
       t.timestamps
     end
