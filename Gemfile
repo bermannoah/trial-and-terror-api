@@ -36,9 +36,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'figaro'
 gem 'faraday'
 gem 'active_model_serializers', '~> 0.10.0'
-gem 'devise'
-gem 'devise_token_auth'
-gem 'omniauth'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
